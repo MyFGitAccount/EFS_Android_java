@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.efs.platform.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+        
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.efs.platform.CalendarFragment"
+        android:label="Timetable"
+        tools:layout="@layout/fragment_calendar" />
+        
+    <fragment
+        android:id="@+id/nav_group"
+        android:name="com.efs.platform.GroupFormationFragment"
+        android:label="Group Formation"
+        tools:layout="@layout/fragment_group_formation" />
+        
+    <fragment
+        android:id="@+id/nav_materials"
+        android:name="com.efs.platform.MaterialsFragment"
+        android:label="Learning Materials"
+        tools:layout="@layout/fragment_materials" />
+        
+    <fragment
+        android:id="@+id/nav_questionnaire"
+        android:name="com.efs.platform.QuestionnaireFragment"
+        android:label="Questionnaires"
+        tools:layout="@layout/fragment_questionnaire" />
+        
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.efs.platform.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+        
+</navigation>
